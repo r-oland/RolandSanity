@@ -5,19 +5,21 @@ export default () =>
     .title("Content")
     .items([
       S.listItem()
-        .title("Items")
+        .title(`Home`)
         .child(
-          S.list()
-            .title("Items")
-            .items([
-              S.listItem()
-                .title(`Item`)
-                .child(
-                  S.document()
-                    .title("Item")
-                    .schemaType("newD")
-                    .documentId("newD")
-                )
-            ])
-        )
+          S.document().title("Home").schemaType("Home").documentId("Home")
+        ),
+      S.listItem()
+        .title(`About`)
+        .child(
+          S.document().title("About").schemaType("About").documentId("About")
+        ),
+      S.listItem()
+        .title(`Work`)
+        .child(
+          S.document().title("Work").schemaType("Work").documentId("Work")
+        ),
+      S.listItem()
+        .title(`FAQ`)
+        .child(S.document().title("FAQ").schemaType("FAQ").documentId("FAQ")),
     ]);

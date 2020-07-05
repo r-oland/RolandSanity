@@ -1,26 +1,24 @@
-export default {
-  title: "headItem",
-  name: "headItem",
+import Search from "../../assets/Search";
 
-  options: {
-    collapsible: true,
-    collapsed: true,
-  },
-  type: "object",
+export default {
+  name: "seo",
+  type: "document",
+  icon: Search,
   fields: [
     {
+      name: "page",
+      type: "string",
+    },
+    {
       name: "title",
-      title: "title",
       type: "localeString",
     },
     {
       name: "description",
-      title: "description",
       type: "localeString",
     },
     {
       name: "keywords",
-      title: "keywords",
       type: "localeString",
     },
   ],

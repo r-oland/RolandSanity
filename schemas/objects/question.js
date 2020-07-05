@@ -5,13 +5,15 @@ export default {
   fields: [
     {
       name: "question",
-      title: "question",
       type: "localeString",
     },
     {
       name: "answer",
-      title: "answer",
       type: "localeString",
+    },
+    {
+      name: "link",
+      type: "string",
     },
   ],
 };

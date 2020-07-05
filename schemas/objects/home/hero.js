@@ -1,26 +1,22 @@
 export default {
-  title: "headItem",
-  name: "headItem",
+  name: "hero",
+  type: "object",
 
   options: {
     collapsible: true,
     collapsed: true,
   },
-  type: "object",
   fields: [
     {
       name: "title",
-      title: "title",
       type: "localeString",
     },
     {
-      name: "description",
-      title: "description",
-      type: "localeString",
+      name: "headshot",
+      type: "image",
     },
     {
-      name: "keywords",
-      title: "keywords",
+      name: "explanation",
       type: "localeString",
     },
   ],

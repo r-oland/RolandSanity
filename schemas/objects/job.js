@@ -33,5 +33,10 @@ export default {
       title: "float2",
       type: "image",
     },
+    {
+      name: "url",
+      title: "url",
+      type: "string",
+    },
   ],
 };

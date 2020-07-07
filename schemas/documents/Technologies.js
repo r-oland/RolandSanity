@@ -16,8 +16,17 @@ export default {
         "icon has to be #000000 generator: https://codepen.io/sosuke/pen/Pjoqqp",
     },
     {
-      name: "design",
-      type: "boolean",
+      name: "category",
+      type: "string",
+      options: {
+        list: [
+          { title: "language", value: "language" },
+          { title: "library/framework", value: "library/framework" },
+          { title: "platform", value: "platform" },
+          { title: "tool", value: "tool" },
+          { title: "design", value: "design" },
+        ],
+      },
     },
   ],
 };

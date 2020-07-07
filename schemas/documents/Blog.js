@@ -10,21 +10,31 @@ export default {
       type: "blogSeo",
     },
     {
-      name: "name",
+      name: "title",
       type: "string",
+    },
+    {
+      name: "subTitle",
+      type: "text",
+      rows: 2,
     },
     {
       name: "image",
       type: "image",
+      description: "Aspect ratio 16/9",
     },
     {
       name: "date",
       type: "date",
     },
     {
+      name: "readTime",
+      type: "number",
+    },
+    {
       name: "content",
       type: "array",
-      of: [{ type: "block" }],
+      of: [{ type: "imageBlock" }, { type: "textBlock" }],
     },
   ],
 };

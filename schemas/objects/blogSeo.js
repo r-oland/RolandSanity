@@ -7,11 +7,6 @@ export default {
   },
   fields: [
     {
-      name: "description",
-      title: "description",
-      type: "string",
-    },
-    {
       name: "keywords",
       title: "keywords",
       type: "string",

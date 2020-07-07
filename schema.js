@@ -25,9 +25,11 @@ import chat from "./schemas/objects/home/chat";
 import hero from "./schemas/objects/home/hero";
 import sale from "./schemas/objects/home/sale";
 import illustrations from "./schemas/objects/illustrations";
+import imageBlock from "./schemas/objects/imageBlock";
 import job from "./schemas/objects/job";
 import question from "./schemas/objects/question";
 import salePoint from "./schemas/objects/salePoint";
+import textBlock from "./schemas/objects/textBlock";
 import localeBlock from "./schemas/types/localeBlock";
 import localeString from "./schemas/types/localeString";
 
@@ -64,5 +66,7 @@ export default createSchema({
     workPage,
     techOrder,
     workOrder,
+    imageBlock,
+    textBlock,
   ]),
 });

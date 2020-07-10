@@ -16,20 +16,21 @@ import Roland from "./schemas/documents/Roland";
 import Seo from "./schemas/documents/Seo";
 import Technologies from "./schemas/documents/Technologies";
 import Work from "./schemas/documents/Work";
-import blogSeo from "./schemas/objects/blogSeo";
 import contact from "./schemas/objects/contact";
+import customImage from "./schemas/objects/customImage";
 import education from "./schemas/objects/education";
+import externalLink from "./schemas/objects/externalLink";
 import faq from "./schemas/objects/faq";
 import headItem from "./schemas/objects/headItem";
 import chat from "./schemas/objects/home/chat";
 import hero from "./schemas/objects/home/hero";
 import sale from "./schemas/objects/home/sale";
 import illustrations from "./schemas/objects/illustrations";
-import imageBlock from "./schemas/objects/imageBlock";
+import internalLink from "./schemas/objects/internalLink";
 import job from "./schemas/objects/job";
 import question from "./schemas/objects/question";
 import salePoint from "./schemas/objects/salePoint";
-import textBlock from "./schemas/objects/textBlock";
+import customBlock from "./schemas/types/customBlock";
 import localeBlock from "./schemas/types/localeBlock";
 import localeString from "./schemas/types/localeString";
 
@@ -37,6 +38,8 @@ export default createSchema({
   name: "default",
   types: schemaTypes.concat([
     localeString,
+    externalLink,
+    internalLink,
     localeBlock,
     HeadItems,
     headItem,
@@ -61,12 +64,11 @@ export default createSchema({
     contact,
     education,
     educations,
-    blogSeo,
     techArr,
     workPage,
     techOrder,
     workOrder,
-    imageBlock,
-    textBlock,
+    customBlock,
+    customImage,
   ]),
 });

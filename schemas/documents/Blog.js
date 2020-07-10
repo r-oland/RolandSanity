@@ -6,10 +6,6 @@ export default {
   icon: Post,
   fields: [
     {
-      name: "seo",
-      type: "blogSeo",
-    },
-    {
       name: "title",
       type: "string",
     },
@@ -32,9 +28,12 @@ export default {
       type: "number",
     },
     {
+      name: "keywords",
+      type: "string",
+    },
+    {
       name: "content",
-      type: "array",
-      of: [{ type: "imageBlock" }, { type: "textBlock" }],
+      type: "customBlock",
     },
   ],
 };

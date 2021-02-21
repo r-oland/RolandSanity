@@ -28,25 +28,5 @@ export default {
         ],
       },
     },
-    {
-      name: "gatsby",
-      options: {
-        sites: [
-          {
-            siteUrl: "https://rolandbranten-3456137451.gtsb.io/",
-          },
-        ],
-      },
-    },
-    {
-      name: "gatsby",
-      options: {
-        sites: [
-          {
-            siteUrl: "https://cv-4233448647.gtsb.io/",
-          },
-        ],
-      },
-    },
   ],
 };

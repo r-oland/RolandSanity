@@ -16,19 +16,20 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^1.149.16",
-    "@sanity/components": "^1.149.16",
-    "@sanity/core": "^1.149.17",
-    "@sanity/dashboard": "^1.149.16",
-    "@sanity/default-layout": "^1.149.16",
-    "@sanity/default-login": "^1.149.16",
-    "@sanity/desk-tool": "^1.149.16",
-    "@sanity/vision": "^1.149.16",
-    "prop-types": "^15.7",
-    "react": "^16.13",
-    "react-dom": "^16.13",
+    "@sanity/base": "^2.30.1",
+    "@sanity/components": "^2.14.0",
+    "@sanity/core": "^2.30.2",
+    "@sanity/dashboard": "^2.30.1",
+    "@sanity/default-layout": "^2.30.1",
+    "@sanity/default-login": "^2.30.1",
+    "@sanity/desk-tool": "^2.30.1",
+    "@sanity/vision": "^2.30.1",
+    "prop-types": "^15.8",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "sanity-plugin-dashboard-widget-gatsby": "^1.0.9",
-    "sanity-plugin-dashboard-widget-netlify": "^1.0.1"
+    "sanity-plugin-dashboard-widget-netlify": "^1.2.1",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {},
   "repository": {
